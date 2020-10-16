@@ -1,0 +1,29 @@
+body {
+  margin: 0px;  
+  padding: 0px;
+  background-color: teal;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 11%; 
+  font-family: "Bookman Old Style", serif;
+}
+
+div {
+  border: 1px, solid, white;
+}
+
+p {
+  font-family: "biorhyme", verdana;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  font-family: "biorhyme", verdana;
+  padding-top: 23%;
+  padding-bottom: 3px;
+  color: white;
+}
