@@ -5,18 +5,24 @@ body {
   background-image: url('locked.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: auto 100%; 
+  background-position: center;
 }
 </style>
 <body>
 <head>
-<link rel="stylesheet" href="sj_style.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="sj_style.css">
+<link rel="stylesheet" media="screen and (max-width: 600px)" href="sm_style.css">
 </head>
 <h1>Coming Soon</h1>
-<footer>
+<center>
+<table><tr><td><a href="http://twitter.com/snakeyjane" target="_new">Twitter</a></td></tr>
+<tr><td><a href="http://instagram.com/snakeyjanemusic" target="_new">Instagram</a></td></tr>
+<tr><td><a href="http://facebook.com/snakeyjanemusic" target="_new">Facebook</a></td></tr>
+<tr><td><a href="http://soundcloud.com/snakey-jane" target="_new">Sound Cloud</a></td></tr></table></center>
+<div class="footer">
 Photo by <a href="https://www.pexels.com/@life-of-pix" target="_new">Life Of Pix</a><br>
-Website by <a href="https://github.com/snakeyjane" target="_new">Janie Oskara</a> <br>
 &#169; Snakey Jane 2020
-</footer>
+</div>
 </body>
 </html>
