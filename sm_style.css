@@ -1,0 +1,57 @@
+body {
+  background-color: teal;
+  font-size: 300%;
+}
+
+h1 {
+  color: red; 
+  font-size: 500%;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;  
+  font-family: "Bookman Old Style", serif;
+}
+
+table {
+  padding: 10%; 
+}
+
+table, th, tr {
+  text-align: left; 
+  padding: 2%; 
+  font-family: "Avant Garde", Helvetica; 
+}
+
+tr:hover {
+  background-color: teal;
+}
+
+div {
+  border: 1px, solid, white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #cccccc;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: black;
+}
+
+p {
+  font-family: Georgia, serif;
+}
+
+.footer {
+  padding: 20%; 
+  text-align: center;
+  font-family: "Sans Mono", "Avant Garde", "Noto Sans", verdana;
+}
